@@ -13,9 +13,47 @@ body{
 }
 
 header{
-    background-color: #fff;
+    background-color: #333;
     padding: 20px 0;
-    box-shadow: 0 20px;
+    color: #fff;
+}
+
+.logo{
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    padding: 10px 0;
+    margin-left: 40px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 4px;
+}
+
+.nav-links a:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after{
+    width: 100%;
 }
 
 .hero{
