@@ -171,3 +171,11 @@ header{
 .contact-form button:hover{
     background-color: #555;
 }
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 14px;
+}
